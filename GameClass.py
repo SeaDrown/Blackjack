@@ -90,7 +90,7 @@ class Game():
         if plrTotal > 21: # player goes bust
             message = "You went bust! Dealer wins"
         elif dealerTotal > 21: # dealer goes bust
-            message = "You went bust! Dealer wins"
+            message = "Dealer went bust! You win"
         elif plrTotal == dealerTotal: # they have the same amount of points
             message = f"You both have {plrTotal} points! Dealer wins, how unlucky..."
         else:
